@@ -50,7 +50,7 @@
                            first-time car buyers alike.<br><br></h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
+          <form id="newsletter">
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
                 <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
@@ -186,7 +186,15 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  <script>
+    $(document).ready(function() {
+      $('#newsletter').submit(function(e) {
+        e.preventDefault();
+        $(this).replaceWith('<div class="alert alert-success" role="alert">Thank you for subscribing.</div>');
+      });
+    });
+  </script>
+  
 </body>
 
 </html>
