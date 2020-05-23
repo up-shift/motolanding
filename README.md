@@ -1,6 +1,6 @@
-# [Motofind - Landing Page]
+# [Motodex - Landing Page]
 
 
-## Copyright and License
+## Copyright and License ##
 
 Copyright 2020
