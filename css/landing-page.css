@@ -101,6 +101,12 @@ header.masthead h1 {
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 
+.navbar {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
 .call-to-action {
   position: relative;
   background-color: #343a40;
